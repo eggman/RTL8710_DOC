@@ -1,4 +1,4 @@
-# Programming the RTL8710
+# Programming the RTL8710 via DAP
 
 # Hardware
 * a RTL8710 RTL00.
@@ -27,8 +27,11 @@
 * reboot RTL8710.
 
 # List of DAP board with LPC11U35FHI33/501.
-* Realtek Ameba dev board
+* Realtek Ameba dev board ( require pattern cut to original ameba module.)
 * B&T RTL8710 debug board
 * TG-LPC11U35-501. (https://developer.mbed.org/platforms/TG-LPC11U35-501/)
 
+# Remark
+* You can programming the RTL8710 via J-Link and other CMSIS DAP, but you don't erase MAC address and WLAN calibration data in 0x9000 - 0xAFFF.
+* Realtek's DAP firmeware prevents to erase 0x9000 - 0xAFFF.
 
