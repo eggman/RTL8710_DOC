@@ -11,7 +11,7 @@
 * Download Realtek's DAP firmware. (https://github.com/Ameba8195/Arduino/blob/master/misc/dap_firmware/DAP_FW_Ameba_V10_2_3-2M.bin)
 * Program DAP firmware to DAP board.
 
-# Wirering
+# Wiring
 
 | DAP board | RTL8710 RTL00 |
 |---|---|
